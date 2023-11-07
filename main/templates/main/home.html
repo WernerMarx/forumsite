@@ -6,4 +6,11 @@ Home
 
 {% block content %}
 <h1>Home Page</h1>
+
+{% for i in js %}
+    <ul>
+        {{ i }}
+    </ul>
+{% endfor %}
+
 {% endblock %}
